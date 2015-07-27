@@ -1,0 +1,578 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blocky UI Kit a Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Blocky UI Kit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!----Calender -------->
+		  <link rel="stylesheet" href="css/clndr.css" type="text/css" />
+		  <script src="js/underscore-min.js" type="text/javascript"></script>
+		  <script src= "js/moment-2.2.1.js" type="text/javascript"></script>
+		  <script src="js/clndr.js" type="text/javascript"></script>
+		  <script src="js/site.js" type="text/javascript"></script>
+	<!----End Calender -------->
+	<!----graph -------->
+	<script src="js/highcharts.js"></script>
+	<script src="js/chart.js"></script>
+	<!----//graph -------->
+</head>
+<body>
+<!-- content -->
+<div class="content">
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<a href="#"><img src="images/logo.png" alt=""/></a>
+			</div>
+			<div class="navigation">
+				<span class="menu"><img src="images/menu.png" alt=""/></span>
+								<ul class="nav1">
+									<li><a class="active" href="index.html">HOME</a></li>
+									<li><a href="#">SERVICES</a></li>	
+									<li><a href="#">PORTFOLIO</a></li>
+									<li><a href="#">CONTACT</a></li>
+								</ul>
+								<!-- script for menu -->
+									<script> 
+										$( "span.menu" ).click(function() {
+										$( "ul.nav1" ).slideToggle( 300, function() {
+										 // Animation complete.
+										});
+										});
+									</script>
+								<!-- //script for menu -->
+
+			</div>
+			<div class="search">
+				<form>
+					<input type="search" value="SEARCH" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'SEARCH';}" required="">
+					<input type="submit" value=" ">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="content-top">
+			<div class="wrap">
+				<div class="col-md-5 content-left">
+					<h1>Blocky UI Kit</h1>
+					<div class="border"></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Nulla volutpat sed quam ut luctus. In hac habitasse platea dictumst. 
+					Donec id purus elit. Suspendisse eget felis nec mauris placerat convallis.</p>
+					<a href="#" class="hvr-rectangle-out button">GET STARTED</a>
+					<a href="#"class="hvr-rectangle-in button more-mar">MORE INFO</a>
+				</div>
+				<div class="col-md-7 content-right">
+					<!-- responsiveslides -->
+						<script src="js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								 // Slideshow 4
+								$("#slider3").responsiveSlides({
+									auto: true,
+									pager: true,
+									nav: false,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+								$('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+									$('.events').append("<li>after event fired.</li>");
+									}
+									});
+									});
+							</script>
+					<!-- responsiveslides -->
+					<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider3">
+							<li>
+								<div class="slider-image">
+									<img src="images/444.jpg" alt=""/>
+								</div>
+							</li>
+							<li>
+								<div class="slider-image">
+									<img src="images/pic3.jpg" alt=""/>
+								</div>
+							</li>
+							<li>
+								<div class="slider-image">
+									<img src="images/555.jpg" alt=""/>
+								</div>
+							</li>
+							<li>
+								<div class="slider-image">
+									<img src="images/444.jpg" alt=""/>
+								</div>
+							</li>
+							<li>
+								<div class="slider-image">
+									<img src="images/pic3.jpg" alt=""/>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="content-bottom">
+			<div class="col-md-5 con-btm-left">
+				<div class="register">
+					<div class="reg-header">
+						<h2>Register your Account</h2>
+						<div class="strip"></div>						
+					</div>
+					<div class="register-grids">
+						<div class="register-left">
+							<img src="images/hhh.jpg" alt=""/>
+							<input type="submit" value="Upload"> a photo
+							 <input type="file" value="Choose file..">
+						</div>
+						<div class="register-right">
+							<div class="user-form">
+								<form>
+										<h3>EMAIL ADDRESS</h3>
+										<input type="text" value="name@email.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'name@email.com';}" required="">
+										<h3>CHOOSE PASSWORD</h3>
+										<input type="password" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}" required="">
+										<h3>CONFIRM PASSWORD</h3>
+										<input type="password" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}" required="">
+										<h3>DATE OF BIRTH</h3>
+										<ul>
+											<li>
+												<input type="number" class="text_box" type="text" value="28" min="1" />	
+											</li>
+											<li>
+												<input type="number" class="text_box" type="text" value="06" min="01" />	
+											</li>
+											<li>
+												<input type="number" class="text_box" type="text" value="1988" min="1" />	
+											</li>
+											<div class="clearfix"></div>
+										</ul>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="form-btm">
+						<form>
+							<div class="form-left">
+								<label><input type="checkbox" name="checkbox" checked=""><i>Recieve weekly newsletter?</i></label>
+							</div>
+							<div class="form-right">
+								<input type="submit" value="SUBMIT">
+							</div>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+				</div>
+				<div class="graph-grid">
+					<div class="graph-header">
+						<h3>Statistics</h3>
+						<div class="strip"></div>						
+					</div>
+					<div class="graph">
+								<div id="recipes" style="100%; height:320px; margin: 0 auto; padding:20px; background:#FFFFFF"></div>
+							 <script>
+							 $(function () {
+								$('#recipes').highcharts({
+									
+									title: {
+										text: 'latest week 13,250',
+										style: {
+											color: '#222222',
+											fontWeight: '100'
+										   
+										}
+									},
+								   
+								   xAxis: {
+										categories: ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+									},
+									
+									yAxis: {
+										 labels: {
+											formatter: function() {
+												return this.value +'k'
+											}
+										},
+										 title: {
+												enabled: false
+											}
+									},
+									 plotOptions: {
+										series: {
+											 cursor: 'pointer',
+											color: '#222222'
+										}
+									},
+									 
+									legend: {
+										enabled: false
+									},
+									
+									tooltip: {
+									   shared: true,
+									   pointFormat: '{point.x} k',
+										backgroundColor: '#FFFFFF'
+									},
+									
+									series: [{            
+										data: [1, 4.5, 4, 6.7, 1],
+										pointStart: 1
+									}]
+								});
+							});
+
+							 </script>
+					</div>
+				</div>
+				<div class="shopping-chart">
+					<div class="shop-header">
+						<h3>Shopping Chart</h3>
+						<div class="strip"></div>						
+					</div>
+					<ul>
+						<li>
+							<div class="shop-grids">
+								<div class="shop-img">
+									<img src="images/eee.jpg" alt=""/>
+								</div>
+								<div class="shop-info">
+									<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </a></h4>
+									<p>Apple</p>
+								</div>
+								<div class="shop-price">
+									<p>$699.00</p>
+								</div>
+								<div class="shop-count">
+									<p>1</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li>
+							<div class="shop-grids">
+								<div class="shop-img">
+									<img src="images/fff.jpg" alt=""/>
+								</div>
+								<div class="shop-info">
+									<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </a></h4>
+									<p>Apple</p>
+								</div>
+								<div class="shop-price">
+									<p>$699.00</p>
+								</div>
+								<div class="shop-count">
+									<p>1</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li>
+							<div class="shop-grids">
+								<div class="shop-img">
+									<img src="images/ggg.jpg" alt=""/>
+								</div>
+								<div class="shop-info">
+									<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> </h4>
+									<p>Apple</p>
+								</div>
+								<div class="shop-price">
+									<p>$699.00</p>
+								</div>
+								<div class="shop-count">
+									<p>1</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="cont-mar">CONTINUE SHOPPING</a>
+					<a href="#" class="check-out">CHECKOUT</a>
+				</div>
+			</div>
+			<div class="col-md-7 con-btm-right">
+				<div class="con-btm-grids">
+					<div class="con-btm-l">
+						<div class="login-tab">
+							<div class="user-login">
+								<h2>Login</h2>
+								<div class="strip"></div>
+								<form>
+									<input type="text" value="name@email.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'name@email.com';}" required="">
+									<input type="password" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}" required="">
+										<div class="user-grids">
+											<div class="user-left">
+												<label><input type="checkbox" name="checkbox" checked=""><i>Remember me?</i></label>
+											</div>
+											<div class="user-right">
+												<input type="submit" value="LOGIN">
+											</div>
+											<div class="clearfix"></div>
+										</div>
+								</form>
+							</div>
+						</div>
+						<div class="fb-connect">
+								<h2>Connect</h2>
+								<div class="strip"></div>
+								<ul>
+									<li><a href="#" class="twitter">Login via <b>Twitter</b></a></li>
+									<li><a href="#" class="facebook">Login via <b>Facebook</b></a></li>
+								</ul>
+						</div>
+						<div class="mail-list">
+							<h3>MAILING LIST</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<form>
+								<input type="text" value="name@email.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'name@email.com';}" required="">
+								<input type="submit" value="JOIN">							
+							</form>
+						</div>
+					</div>
+					<div class="con-btm-r">
+						<div class="follow">
+							<div class="follow-img">
+								
+							</div>
+							<div class="follow-info">
+								<h4>JANE DOE</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies tincidunt, 
+								id interdum molestie vitae. Aliquam erat volutpat. </p>
+								<a href="#">FOLLOW</a>
+							</div>
+							<div class="follow-grids">
+								<div class="follow-grid">
+									<h5>356 <span>POSTS</span></h5>
+								</div>
+								<div class="follow-grid">
+									<h5>1,569 <span>FOLLOWERS</span></h5>
+								</div>
+								<div class="follow-grid">
+									<h5>1,203 <span>FOLLOWING</span></h5>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="follow-pos"><img src="images/pic5.jpg" alt=""/></div>
+						</div>
+						<div class="sap_tabs">	
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								 <ul class="resp-tabs-list">
+									  <li class="resp-tab-item " aria-controls="tab_item-0" role="tab"><span>POPULAR</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>RECENT</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>TOP RATED</span></li>
+									  <div class="clearfix"></div>
+								 </ul>				  	 
+								<div class="resp-tabs-container">
+									<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0">
+									<span class="resp-arrow"></span>TAB DATA</h2>
+										<div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+											<div class="facts">
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/eee.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> </h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/fff.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> </h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/ggg.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </a></h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+											</div>	
+										</div>
+										<h2 class="resp-accordion" role="tab" aria-controls="tab_item-1">
+										<span class="resp-arrow"></span>TAB DATA</h2>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+											<div class="facts">									
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/ggg.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> </h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/eee.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> </h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/ggg.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </a></h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>										
+											</div>	
+										</div>									
+										<h2 class="resp-accordion" role="tab" aria-controls="tab_item-2">
+										<span class="resp-arrow"></span>TAB DATA</h2>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+											<div class="facts">
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/fff.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a> </h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/ggg.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div>
+												<div class="facts-grids">
+													<div class="facts-left">
+													  <img src="images/eee.jpg" alt=""/>
+													</div> 
+													<div class="facts-right">
+														<h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </a></h4>
+														<p>14 July 2014    <a href="#">19 Comments</a></p>
+													</div>
+													<div class="clearfix"></div>
+												</div> 
+											</div>	
+										</div>
+								</div>
+							</div>
+							<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+							<script type="text/javascript">
+								$(document).ready(function () {
+									$('#horizontalTab').easyResponsiveTabs({
+										type: 'default', //Types: default, vertical, accordion           
+										width: 'auto', //auto or any width like 600px
+										fit: true   // 100% fit in a container
+									});
+								});
+							   </script>	
+						</div>
+
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="pricing-grids">
+					<div class="pricing-grid">
+						<div class="basic-plan">
+							<h3>BASIC</h3>
+							<p>$<span>6</span>.00</p>
+						</div>
+						<ul>
+							<li>5x <span>Users</span></li>
+							<li>10x <span>Projects</span></li>
+							<li>1x <span>Email Account</span></li>
+							<li>10GB <span>Storage</span></li>
+						</ul>
+						<div class="sig-up"><a href="#">SIGN UP</a></div>
+					</div>
+					<div class="pricing-grid">
+						<div class="basic-plan a">
+							<h3>PREMIUM</h3>
+							<p>$<span>12</span>.00</p>
+						</div>
+						<ul>
+							<li>20x <span>Users</span></li>
+							<li>50x <span>Projects</span></li>
+							<li>10x <span>Email Accounts</span></li>
+							<li>100GB <span>Storage</span></li>
+						</ul>
+						<div class="sig-up"><a href="#">SIGN UP</a></div>
+					</div>
+					<div class="pricing-grid">
+						<div class="basic-plan b">
+							<h3>ELITE</h3>
+							<p>$<span>19</span>.00</p>
+						</div>
+						<ul>
+							<li>Unlimited <span>Users</span></li>
+							<li>Unlimited <span>Projects</span></li>
+							<li>Unlimited <span>Email Account</span></li>
+							<li>Unlimited <span>Storage</span></li>
+						</ul>
+						<div class="sig-up"><a href="#">SIGN UP</a></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="video-grids">
+					<div class="video-left">
+						<iframe src="https://www.youtube.com/embed/PMXopEpQwl4" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="video-right">
+						<div class="cal1 cal_2"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">July 2015</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day adjacent-month last-month calendar-day-2015-06-28"><div class="day-contents">28</div></td><td class="day adjacent-month last-month calendar-day-2015-06-29"><div class="day-contents">29</div></td><td class="day adjacent-month last-month calendar-day-2015-06-30"><div class="day-contents">30</div></td><td class="day calendar-day-2015-07-01"><div class="day-contents">1</div></td><td class="day calendar-day-2015-07-02"><div class="day-contents">2</div></td><td class="day calendar-day-2015-07-03"><div class="day-contents">3</div></td><td class="day calendar-day-2015-07-04"><div class="day-contents">4</div></td></tr><tr><td class="day calendar-day-2015-07-05"><div class="day-contents">5</div></td><td class="day calendar-day-2015-07-06"><div class="day-contents">6</div></td><td class="day calendar-day-2015-07-07"><div class="day-contents">7</div></td><td class="day calendar-day-2015-07-08"><div class="day-contents">8</div></td><td class="day calendar-day-2015-07-09"><div class="day-contents">9</div></td><td class="day calendar-day-2015-07-10"><div class="day-contents">10</div></td><td class="day calendar-day-2015-07-11"><div class="day-contents">11</div></td></tr><tr><td class="day calendar-day-2015-07-12"><div class="day-contents">12</div></td><td class="day calendar-day-2015-07-13"><div class="day-contents">13</div></td><td class="day calendar-day-2015-07-14"><div class="day-contents">14</div></td><td class="day calendar-day-2015-07-15"><div class="day-contents">15</div></td><td class="day calendar-day-2015-07-16"><div class="day-contents">16</div></td><td class="day calendar-day-2015-07-17"><div class="day-contents">17</div></td><td class="day calendar-day-2015-07-18"><div class="day-contents">18</div></td></tr><tr><td class="day calendar-day-2015-07-19"><div class="day-contents">19</div></td><td class="day calendar-day-2015-07-20"><div class="day-contents">20</div></td><td class="day calendar-day-2015-07-21"><div class="day-contents">21</div></td><td class="day calendar-day-2015-07-22"><div class="day-contents">22</div></td><td class="day calendar-day-2015-07-23"><div class="day-contents">23</div></td><td class="day calendar-day-2015-07-24"><div class="day-contents">24</div></td><td class="day calendar-day-2015-07-25"><div class="day-contents">25</div></td></tr><tr><td class="day calendar-day-2015-07-26"><div class="day-contents">26</div></td><td class="day calendar-day-2015-07-27"><div class="day-contents">27</div></td><td class="day calendar-day-2015-07-28"><div class="day-contents">28</div></td><td class="day calendar-day-2015-07-29"><div class="day-contents">29</div></td><td class="day calendar-day-2015-07-30"><div class="day-contents">30</div></td><td class="day calendar-day-2015-07-31"><div class="day-contents">31</div></td><td class="day adjacent-month next-month calendar-day-2015-08-01"><div class="day-contents">1</div></td></tr></tbody></table></div></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="footer">
+			<p>Copyright &copy; 2015 Blocky UI Kit. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+		</div>
+	</div>
+</div>
+	
+<!-- //content -->
+</body>
+</html>

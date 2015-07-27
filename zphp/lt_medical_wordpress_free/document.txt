@@ -1,0 +1,15 @@
+L.THEME (http://ltheme.com)
+General template document
+
+1/ How to install template?
+- Using template Install Package and install it via Admin > Appearance > Theme, add new theme and select Template Install Package.
+- Active template and use it as default template.
+
+2/ How to install Quicstart package? (Only for Pro package)
+- We use Duplicator Wordpress plugin to backup website https://wordpress.org/plugins/duplicator/
+- You just unzip Quickstart package in your hosting and run file 'installer.php', then follow an instruction via via video in Plugin to restore.
+
+Thanks for using our products, and if you have any question with template, feel free post your question via our Support System at http://ltheme.com/support/
+
+--
+L.THEME TEAM

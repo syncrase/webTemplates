@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+
+	<config 
+		folder="photos/"
+		no_of_rows="5"
+		follow_mouse="true"
+		fullscreen_button="true"		
+		previous_row_button="true"
+		next_row_button="true"	
+		dragger_control="true"
+		dragger_x_spacing="20"
+		drag_speed="0.4"
+
+		z_spacing="300"
+		camera_x="240"
+		camera_y="360"
+		camera_z="-1200"
+		photo_width="480"
+		photo_height="300"
+		photo_border_size="0"
+		photo_border_color="#FFFFFF"
+		description_width="480"
+		description_height="160"
+
+		tween_duration="0.7"
+		tween_effect="easeOutQuart"
+		css_file="flashmo_210_style.css">
+	</config>
+
+	<photo>
+		<filename>flashmo_480x300_01.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 1 - Integer pellentesque dignissim diam</span>
+<p align="justify">This text is dynamically loaded from <span class="highlight">the external XML file</span>. Also, the text is formatted by <span class="highlight">the external CSS file</span>. This flash source file is available to download for free of charge from <a href="http://www.google.com">flashmo.com</a>. You may download, edit and apply the source file for your websites.
+Nam pulvinar lobortis nunc, eleifend viverra urna euismod vehicula. Vestibulum condimentum, ligula non vestibulum sagittis, velit sapien semper risus, et porta erat mauris et dolor. <span class="highlight">Curabitur libero libero, molestie consequat adipiscing quis, faucibus in nunc.</span>
+Proin dui mauris, tempor eget, pulvinar sed, pretium sit amet, dui. <a href="http://www.google.com">Proin vulputate justo</a> et quam. Cras nisl eros, elementum eu, iaculis vitae, viverra ut, ligula. Pellentesque metus. Duis dolor.
+<span class="note">Notes: Aliquam lacus turpis, dapibus eget, tincidunt eu, lobortis et, magna.</span></p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_02.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 2 - Suspendisse hendrerit turpis id augue</span>
+<p align="justify">Phasellus cursus lobortis arcu. Donec scelerisque. Integer ultrices. Donec hendrerit. Maecenas nisl ante, mollis et, tincidunt vitae, feugiat sit amet, mi. Vestibulum urna. Vivamus eu tortor. <a href="http://www.google.com">Flash Templates</a> - Phasellus tempus, justo et laoreet varius, odio mi ultrices libero, nec faucibus dui felis eu dui.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_03.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 3 - Quisque ornare pulvinar lorem</span>
+<p align="justify">Nulla sed leo sed sapien sagittis aliquet. Vivamus vestibulum condimentum massa. Phasellus id purus. Donec mattis egestas sem. Sed pretium, neque hendrerit rhoncus accumsan, nibh tellus pharetra neque, quis rutrum elit justo vitae sapien.
+Etiam sed lectus sed metus posuere ultricies. Sed iaculis adipiscing pharetra. Phasellus sed eros ut nisl consectetur faucibus ac at nunc. Sed aliquet volutpat pharetra. Sed tempor scelerisque magna non feugiat. Suspendisse a lorem mauris, sit amet commodo tortor. <span class="highlight">Duis euismod leo in velit facilisis interdum.</span>
+<span class="note">Notes: Vestibulum ultrices. Pellentesque tempus sapien nec sem commodo ullamcorper. Aenean neque. Cras feugiat. In ut ante.</span></p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_04.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 4 - Vivamus vulputate felis</span>
+<p align="justify">Proin dui mauris, tempor eget, pulvinar sed, pretium sit amet, dui. Proin vulputate justo et quam. Cras nisl eros, elementum eu, iaculis vitae, viverra ut, ligula. <span class="highlight">Pellentesque metus. Duis dolor.</span> <a href="http://www.google.com">Donec a purus vel purus</a> sollicitudin placerat. Nunc at sem. Sed pellentesque placerat augue. Mauris pede nisl, placerat nec, lobortis vitae, dictum sed, neque.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_05.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 5 - Suspendisse hendrerit turpis id augue</span>
+<p align="justify">Cras condimentum interdum felis, id tristique augue feugiat et. <a href="http://www.google.com">Nam pulvinar lobortis nunc</a>, eleifend viverra urna euismod vehicula. Vestibulum condimentum, ligula non vestibulum sagittis, velit sapien semper risus, et porta erat mauris et dolor. Curabitur libero libero, molestie consequat adipiscing quis.
+Sed nec felis. Vivamus laoreet pharetra eros. In quam nibh, placerat ac, porta ac, molestie non, purus. <a href="http://www.google.com">Curabitur sem ante</a>, condimentum non, cursus quis, eleifend non, libero. Nunc a nulla. <span class="highlight">Suspendisse vitae orci a ligula egestas bibendum.</span>
+<span class="note">Notes: Vestibulum ultrices. Pellentesque tempus sapien nec sem commodo ullamcorper. Aenean neque. Cras feugiat. In ut ante.</span></p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_06.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 6 - Quisque ornare pulvinar lorem</span>
+<p align="justify"><a href="http://www.google.com">Free Flash Templates</a> - Phasellus ultrices justo non nibh. Sed a eros. Phasellus cursus lobortis arcu. Donec scelerisque. Integer ultrices. Cras ac odio ac mi imperdiet sollicitudin. In hac habitasse platea dictumst. <span class="highlight">Curabitur euismod scelerisque lacus.</span> Cras pretium sem sed odio. Vestibulum nisl mauris, malesuada nec, dictum in, molestie in, pede.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_07.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 7 - Integer pellentesque dignissim diam</span>
+<p align="justify">Fusce non lacus et lorem ornare interdum. Nunc eget urna. Curabitur euismod scelerisque lacus. Mauris vestibulum felis eget tortor. Praesent mattis varius quam. Vestibulum ullamcorper ipsum nec augue.
+Nunc aliquam, <a href="http://www.google.com">dolor vitae sollicitudin lacinia</a>, nibh orci sagittis diam, dignissim sodales dui erat nec eros. Fusce quis enim. Aenean eleifend, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus.
+<span class="subtitle">Curabitur euismod scelerisque lacus</span>
+Duis metus leo, consectetur quis sagittis et, luctus a ligula. <span class="highlight">Maecenas posuere</span> feugiat risus, non sodales mi egestas eget. Duis vehicula, tellus sit amet tincidunt pulvinar, ipsum magna sagittis quam, quis aliquam lorem odio quis augue.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_08.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 8 - Quisque ornare pulvinar lorem</span>
+<p align="justify">Phasellus id purus. Donec mattis egestas sem. Sed pretium, neque hendrerit rhoncus accumsan, nibh tellus pharetra neque, quis rutrum elit justo vitae sapien. <span class="highlight">In quam nibh, placerat ac, porta ac, molestie non, purus. Curabitur sem ante, condimentum non, cursus quis, eleifend non, libero. Suspendisse vitae orci a ligula egestas bibendum.</span></p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_09.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 9 - Integer pellentesque dignissim diam</span>
+<p align="justify">Vestibulum tristique purus at odio gravida imperdiet vel non dolor. Phasellus condimentum mollis porttitor. <a href="http://www.google.com">Donec id arcu velit</a>, sed elementum tellus. Ut vel nisi mauris, ultricies sagittis lectus. Quisque vel mi massa, a commodo nunc.
+Fusce non lacus et lorem ornare interdum. Nunc eget urna. Mauris vestibulum felis eget tortor. <span class="highlight">Praesent mattis varius quam.</span> Vestibulum ullamcorper ipsum nec augue. Phasellus ultrices justo non nibh. Sed a eros. Phasellus cursus lobortis arcu. Donec scelerisque. Integer ultrices. Donec hendrerit. Cras ac odio ac mi imperdiet sollicitudin.
+In hac habitasse platea dictumst. <span class="highlight">Curabitur euismod scelerisque lacus.</span> Cras pretium sem sed odio. Vestibulum nisl mauris, malesuada nec, dictum in, molestie in, pede.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_10.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 10 - Suspendisse hendrerit turpis id augue</span>
+<p align="justify">Maecenas nisl ante, mollis et, tincidunt vitae, feugiat sit amet, mi. Vestibulum urna. Vivamus eu tortor. Phasellus tempus, justo et laoreet varius, odio mi ultrices libero, nec faucibus dui felis eu dui. <a href="http://www.google.com">Free Flash Templates</a> - Cras ac odio ac mi imperdiet sollicitudin. In hac habitasse platea dictumst. <span class="highlight">Curabitur euismod scelerisque lacus.</span> Cras pretium sem sed odio.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_11.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 11 - Quisque ornare pulvinar lorem</span>
+<p align="justify">Phasellus ultrices justo non nibh. Sed a eros. Phasellus cursus lobortis arcu. Nulla sed leo sed sapien sagittis aliquet. <span class="highlight">Vivamus vestibulum</span> condimentum massa. Phasellus id purus. Donec mattis egestas sem. Sed pretium, neque hendrerit rhoncus accumsan, nibh tellus pharetra neque, quis rutrum elit justo vitae sapien.
+Ut imperdiet imperdiet scelerisque. Morbi at sem elit, eget rhoncus libero. Sed quis erat vel turpis semper congue. Aenean sit amet euismod ipsum. Morbi viverra neque pharetra lorem dictum eu blandit felis blandit. Sed faucibus rhoncus mattis. <span class="highlight">Suspendisse vitae orci a ligula egestas bibendum.</span>
+<span class="note">Notes: Vestibulum ultrices. Pellentesque tempus sapien nec sem commodo ullamcorper. Aenean neque. Cras feugiat. In ut ante.</span></p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_12.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 12 - Integer pellentesque dignissim diam</span>
+<p align="justify">Cras ac odio ac mi imperdiet sollicitudin. Nunc eget urna. <a href="http://www.google.com">Mauris vestibulum</a> felis eget tortor. Praesent mattis varius quam. Vestibulum ullamcorper ipsum nec augue. In hac habitasse platea dictumst. <span class="highlight">Curabitur euismod scelerisque lacus.</span> Cras pretium sem sed odio. Vestibulum nisl mauris, malesuada nec, dictum in, molestie in, pede.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_13.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 13 - Quisque ornare pulvinar lorem</span>
+<p align="justify">In quam nibh, placerat ac, porta ac, molestie non, purus. Curabitur sem ante, condimentum non, cursus quis, eleifend non, libero. <span class="highlight">Suspendisse vitae orci a ligula egestas bibendum.</span> Donec mattis egestas sem. Sed pretium, neque hendrerit rhoncus accumsan, nibh tellus pharetra neque, quis rutrum elit justo vitae sapien.</p>]]></description>
+	</photo>
+	
+	<photo>
+		<filename>flashmo_480x300_14.jpg</filename>
+		<description><![CDATA[<span class="subtitle">Title 14 - Phasellus cursus lobortis arcu</span>
+<p align="justify"><a href="http://www.google.com" target="_blank">Fusce quis diam sit</a> amet tortor luctus pellentesque. Donec accumsan urna non elit tristique mattis. <b>Vivamus fermentum</b> orci viverra nisl. In nec magna id ipsum aliquam dictum.
+Quisque nec nisl. Fusce lobortis pretium lacinia. Donec vel eros at dui faucibus faucibus. In hac habitasse platea dictumst. Sed elementum porta nibh iaculis lobortis.
+Nullam et purus quis nibh rutrum tincidunt quis ac augue. Phasellus condimentum nisi vitae purus pretium a blandit elit consectetur. Vivamus consectetur lorem nec ante mollis tempor.</p>]]></description>
+	</photo>
+	
+</photos>

@@ -1,0 +1,555 @@
+/* ==================================================
+   CSS Imports
+================================================== */
+
+@import url("reset.css");
+@import url("menu.css");
+@import url("buttons.css");
+@import url("columns.css");
+
+/* ==================================================
+   Icon Fonts
+================================================== */
+
+@import url("fonts/fontawesome/font-awesome.css");
+
+/* ==================================================
+   Google Fonts
+================================================== */
+
+@import url("http://fonts.googleapis.com/css?family=Ruda:400,700,900");
+@import url("http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic");
+
+
+/* ==================================================
+   Global Styles
+================================================== */
+
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html
+{
+	height: 100%;
+	overflow: auto;
+	
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body
+{
+	font-family: "Ruda", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #666;
+	background: #222;
+	
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+
+::selection
+{
+	background: #EC3642;
+	color: #FFF;
+}
+
+::-moz-selection
+{
+	background: #EC3642;
+	color: #FFF;
+}
+
+a
+{
+	color: #EC3642;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #222;
+}
+
+/* ==================================================
+   Images
+================================================== */
+
+img
+{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+
+	img.imgright
+	{
+		display: block;
+		float: right;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 0 20px 20px;
+	}
+	
+	img.imgleft
+	{
+		display: block;
+		float: left;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 20px 20px 0;
+	}
+
+/* ==================================================
+   Colours
+================================================== */
+
+.bg1
+{
+	background: #EC3642 url("../images/bg.jpg") no-repeat scroll top center;
+	background-size: cover;
+}
+
+.bg2
+{
+	background: #000;
+	background: rgba(0,0,0,0.5);
+}
+
+.bg3
+{
+	background: #FFF;
+	border-bottom: 1px dotted #CCC;
+}
+
+.bg4
+{
+	background: #FFF;
+}
+
+/* ==================================================
+   Layout Styles
+================================================== */
+
+.container
+{
+	width: 100%;
+	padding: 0 30px;
+	min-width: 280px;
+	line-height: 26px;
+}
+
+	.container .bodycontainer
+	{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1000px;
+	}
+	
+.containerfull
+{
+	width: 100%;
+	padding: 0;
+	min-width: 280px;
+	line-height: 26px;
+}
+
+	.containerfull .bodycontainer
+	{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1000px;
+	}
+	
+/* ==================================================
+   Sections
+================================================== */
+
+#topcont
+{
+	padding: 25px 0;
+}
+
+	#topcont h1
+	{
+		float: left;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		font-size: 32px;
+		line-height: 44px;
+		font-weight: 400;
+	}
+	
+		#topcont h1 a
+		{
+			color: #FFF;
+		}
+		
+	#topcont p
+	{
+		float: right;
+		font-size: 26px;
+		line-height: 26px;
+		cursor: pointer;
+		background: #EC3642;
+		color: #FFF;
+		padding: 7px 10px;
+	}
+
+#overlay, #topoverlay
+{
+	background: rgba(0,0,0,0.6);
+	padding: 0 30px;
+	color: #FFF;
+	font-size: 18px;
+}
+
+	#overlay #headercont
+	{
+		padding: 90px 0;
+	}
+	
+		#overlay #headercont h1
+		{
+			width: 100%;
+			max-width: 600px;
+			font-size: 48px;
+			line-height: 48px;
+			font-weight: 400;
+			letter-spacing: -2px;
+			margin: 0 0 20px 0;
+		}
+	
+		#overlay #headercont p
+		{
+			margin: 0 0 20px 0;
+			color: rgba(255,255,255,0.6);
+		}
+		
+		#overlay #headercont p:last-child
+		{
+			margin: 0;
+		}
+		
+#hoverthumbscont
+{
+	width: 100%;
+	padding: 30px 0 15px 0;
+}
+
+	#hoverthumbscont .thirdcont
+	{
+		width: -moz-calc(100% + 30px);
+		width: -webkit-calc(100% + 30px);
+		width: -o-calc(100% + 30px);
+		width: calc(100% + 30px);
+		
+		margin: 0 -15px;
+	}
+	
+		#hoverthumbscont .thirdcont .third
+		{
+			float: left;
+			width: 33.33%;
+			padding: 0 15px;
+			margin: 0 0 15px 0;
+			font-size: 14px;
+			line-height: 22px;
+		}
+
+			#hoverthumbscont .thirdcont .third a
+			{
+				display: block;
+				width: 100%;
+				color: #555;
+			}
+			
+			#hoverthumbscont .thirdcont .third a p.bgcolour
+			{
+				position: relative;
+				background: #EC3642;
+			}
+			
+				#hoverthumbscont .thirdcont .third a p.bgcolour span
+				{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					margin: -15px 0 0 -15px;
+					color: #FFF;
+					font-size: 34px;
+					z-index: 1;
+					
+					-webkit-transition: z-index 0.1s linear;
+					-moz-transition: z-index 0.1s linear;
+					-o-transition: z-index 0.1s linear;
+					transition: z-index 0.1s linear;
+				}
+			
+				#hoverthumbscont .thirdcont .third a p.bgcolour img
+				{
+					display: block;
+					position: relative;
+					opacity: 1;
+					z-index: 2;
+					width: 100%;
+					max-width: 500px;
+					margin: 0;
+					
+					-webkit-transition: opacity 0.1s linear;
+					-moz-transition: opacity 0.1s linear;
+					-o-transition: opacity 0.1s linear;
+					transition: opacity 0.1s linear;
+				}
+				
+					#hoverthumbscont .thirdcont .third a:hover p.bgcolour img
+					{
+						opacity: 0.15;
+					}
+					
+						#hoverthumbscont .thirdcont .third a:hover p.bgcolour span
+						{
+							z-index: 3;
+						}
+						
+#maincont
+{
+	width: 100%;
+	padding: 30px 0;
+	background: #FFF url("../images/bg-maincont.png") repeat-y 70% 0;
+}
+
+	#maincont p
+	{
+		margin: 0 0 20px 0;
+	}
+	
+		#maincont p:last-child
+		{
+			margin: 0 0 20px 0;
+		}
+		
+	#maincont strong
+	{
+		font-weight: 700;
+	}
+
+	#maincont h1, #maincont h2, #maincont h3, #maincont h4, #maincont h5, #maincont h6
+	{
+		margin: 0 0 20px 0;
+		font-weight: 400;
+		letter-spacing: -1px;
+		color: #444;
+	}
+	
+		#maincont h1
+		{
+			font-size: 28px;
+			line-height: 28px;
+		}
+		
+		#maincont h2
+		{
+			font-size: 26px;
+			line-height: 26px;
+		}
+		
+		#maincont h3
+		{
+			font-size: 24px;
+			line-height: 24px;
+		}
+		
+		#maincont hr
+		{
+			clear: both;
+			float: left;
+			width: 100%;
+			padding: 0;
+			margin: 0 0 20px 0;
+			border: none;
+			border-top: 1px dotted #CCC;
+		}
+	
+			#maincont #mainleft
+			{
+				float: left;
+				width: 70%;
+				padding: 0 30px 0 0;
+			}
+			
+			#maincont #mainright
+			{
+				float: left;
+				width: 30%;
+				padding: 0 0 0 30px;
+			}
+	
+#footercont
+{
+	width: 100%;
+	padding: 45px 0;
+}
+
+	#footercont p
+	{
+		font-size: 14px;
+		font-style: italic;
+	}
+
+	#footercont a:hover
+	{
+		color: #FFF;
+	}
+	
+		#footercont #footerleft
+		{
+			float: left;
+		}
+		
+			#footercont #footerleft #socialmedia ul
+			{
+				margin: 0 0 10px 0;
+			}
+		
+			#footercont #footerleft #socialmedia ul li
+			{
+				display: inline-block;
+				list-style-type: none;
+				margin: 0 10px 0 0;
+				padding: 0;
+			}
+		
+				#footercont #footerleft #socialmedia ul li a
+				{
+					font-size: 24px;
+				}
+		
+		#footercont #footerright
+		{
+			float: right;
+		}
+		
+			#footercont #footerright p a.scrolltop
+			{
+				float: right;
+				font-size: 28px;
+				line-height: 28px;
+				cursor: pointer;
+				background: #EC3642;
+				color: #FFF;
+				padding: 4px 10px;
+			}
+
+
+/* ==================================================
+   Responsive Media Queries - Tablets
+================================================== */
+
+@media screen and (max-width: 768px)
+{
+	
+	img.imgright
+	{
+		float: none;
+		width: 100%;
+		max-width: 380px;
+		margin: 0 0 20px 0;
+	}
+	
+	img.imgleft
+	{
+		float: none;
+		width: 100%;
+		max-width: 380px;
+		margin: 0 0 20px 0;
+	}
+	
+	.container, #overlay
+	{
+		padding: 0 25px;
+	}
+	
+	#overlay #headercont 
+	{
+		padding: 80px 0;
+		font-size: 16px;
+	}
+	
+		#overlay #headercont  h1
+		{
+			font-size: 32px;
+			line-height: 32px;
+			letter-spacing: -1px;
+		}
+		
+	#maincont
+	{
+		background-image: none;
+	}
+	
+		#maincont #mainleft
+		{
+			float: left;
+			width: 100%;
+			padding: 0 0 30px 0;
+		}
+		
+		#maincont #mainright
+		{
+			float: left;
+			width: 100%;
+			padding: 30px 0;
+			border-top: 1px dotted #CCC;
+		}
+		
+	#footercont
+	{
+		width: 100%;
+		padding: 35px 0;
+	}
+	
+		#footercont #footerleft
+		{
+			float: left;
+			width: 100%;
+			padding-top: 30px;
+		}
+		
+		#footercont #footerright
+		{
+			float: left;
+			width: 100%;
+		}
+		
+			#footercont #footerright p a.scrolltop
+			{
+				float: left;
+			}
+	
+}
+
+/* ==================================================
+   Responsive Media Queries - Mobiles
+================================================== */
+
+@media screen and (max-width: 480px)
+{		
+	
+	.container, #overlay
+	{
+		padding: 0 20px;
+	}
+	
+	#hoverthumbscont .thirdcont .third
+	{
+		width: 100%;
+	}
+	
+}
+

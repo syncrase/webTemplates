@@ -1,0 +1,171 @@
+/* demo page styles */
+body {
+    background:#eee;
+    margin:0;
+    padding:0;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 11px;
+}
+.example {
+    position:relative;
+    background:url("../images/background.jpg") no-repeat scroll center center #fff;
+    width:600px;
+    height:510px;
+    border:1px #000 solid;
+    margin:20px auto;
+    padding:20px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+/* navigation menu styles - main styles */
+ul.navi {
+    position:relative;
+    z-index:100;
+    padding:0;
+    margin:0 0 0 60px;
+    list-style:none;
+    width:auto;
+    height:30px;
+}
+ul.navi > li {
+    width:48px;
+    height:30px;
+    position:absolute;
+    left:0;
+    top:0; 
+
+    -moz-transition: -moz-transform 0.5s ease-in-out;
+    -ms-transition: -ms-transform 0.5s ease-in-out;
+    -o-transition: -o-transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+ul.navi a {
+    display:block;
+    width:48px;
+    height:30px;
+    position:absolute;
+    left:0;
+    top:0;
+    line-height:30px;
+    text-align:center;
+    text-decoration:none;
+}
+ul.navi a img {
+    border:0;
+}
+ul.navi a span {
+    position:absolute;
+    left:5px;
+    font-size:11px;
+    font-weight:bold;
+    color:#fff;
+}
+
+/* top line - hover styles */
+ul.navi:hover {
+    height:100px;
+}
+ul.navi:hover li#n1 {
+    -moz-transform: translatex(0px);
+    -ms-transform: translatex(0px);
+    -o-transform: translatex(0px);
+    -webkit-transform: translatex(0px);
+    transform: translatex(0px);
+}
+ul.navi:hover li#n2 {
+    -moz-transform: translatex(70px);
+    -ms-transform: translatex(70px);
+    -o-transform: translatex(70px);
+    -webkit-transform: translatex(70px);
+    transform: translatex(70px);
+}
+ul.navi:hover li#n3 {
+    -moz-transform: translatex(140px);
+    -ms-transform: translatex(140px);
+    -o-transform: translatex(140px);
+    -webkit-transform: translatex(140px);
+    transform: translatex(140px);
+}
+ul.navi:hover li#n4 {
+    -moz-transform: translatex(210px);
+    -ms-transform: translatex(210px);
+    -o-transform: translatex(210px);
+    -webkit-transform: translatex(210px);
+    transform: translatex(210px);
+}
+ul.navi:hover li#n5 {
+    -moz-transform: translatex(280px);
+    -ms-transform: translatex(280px);
+    -o-transform: translatex(280px);
+    -webkit-transform: translatex(280px);
+    transform: translatex(280px);
+}
+
+/* submenus - common styles */
+ul.sub {
+    padding:0;
+    margin:0;
+    list-style:none;
+    width:48px;
+    height:30px;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+    opacity:0;
+
+    -moz-transition: opacity 0s linear 1s;
+    -ms-transition: opacity 0s linear 1s;
+    -o-transition: opacity 0s linear 1s;
+    -webkit-transition: opacity 0s linear 1s;
+    transition: opacity 0s linear 1s;
+}
+ul.sub li {
+    width:48px;
+    height:30px;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+
+    -moz-transition: -moz-transform 0.5s ease-in-out 0.5s;
+    -ms-transition: -ms-transform 0.5s ease-in-out 0.5s;
+    -o-transition: -o-transform 0.5s ease-in-out 0.5s;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out 0.5s;
+    transition: transform 0.5s ease-in-out 0.5s;
+}
+
+/* submenus - hover styles */
+ul.navi > li:hover ul {
+    opacity:1;
+
+    -moz-transition: opacity 0s linear 0.5s;
+    -ms-transition: opacity 0s linear 0.5s;
+    -o-transition: opacity 0s linear 0.5s;
+    -webkit-transition: opacity 0s linear 0.5s;
+    transition: opacity 0s linear 0.5s;
+}
+ul.navi li:hover ul li.l {
+    -moz-transform: translatex(-70px) translatey(60px);
+    -ms-transform: translatex(-70px) translatey(60px);
+    -o-transform: translatex(-70px) translatey(60px);
+    -webkit-transform: translatex(-70px) translatey(60px);
+    transform: translatex(-70px) translatey(60px);
+}
+ul.navi li:hover ul li.c {
+    -moz-transform: translatey(60px);
+    -ms-transform: translatey(60px);
+    -o-transform: translatey(60px);
+    -webkit-transform: translatey(60px);
+    transform: translatey(60px);
+}
+ul.navi li:hover ul li.r {
+    -moz-transform: translatex(70px) translatey(60px);
+    -ms-transform: translatex(70px) translatey(60px);
+    -o-transform: translatex(70px) translatey(60px);
+    -webkit-transform: translatex(70px) translatey(60px);
+    transform: translatex(70px) translatey(60px);
+}

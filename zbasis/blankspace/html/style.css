@@ -1,0 +1,93 @@
+/*
+Design by TemplateAccess.com
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+
+@charset "utf-8";
+body { margin:0; padding:0; width:100%;  background:#fff; }
+html { padding:0; margin:0;}
+li.bg, .bg { clear:both; padding:0; margin:2px 5px; height:5px; border-bottom:1px dashed #ccc; list-style:none;}
+p.clr, .clr { clear:both; padding:0; margin:0;}
+.main { margin:0 auto; padding:0;}
+
+/* header */
+.header_resize { margin:0 auto; padding:0; width:930px;}
+.header { background:url(images/header_bg.gif) top repeat-x;  margin:0; padding:0;}
+/* logo */
+.logo { width:500px; margin:0 auto; padding:0; float:left; background:url(images/logo.gif) no-repeat left 34px;}
+h1 { margin:0; padding:32px 0 32px 40px; color:#5d5d5d; font:normal 40px/1.2em Arial, Helvetica, sans-serif;}
+h1 a, h1 a:hover { color:#5d5d5d; text-decoration:none;}
+h1 span { font-weight:bold; color:#4aaede;}
+h1 small { display:block; padding-left:184px; font:normal 14px/1.2em Arial, Helvetica, sans-serif;}
+/* search */
+.search { padding:40px 20px 0 0; margin:0; width:260px; float:right;}
+.search form { float:right; padding:0; margin:0;}
+.search span { display:block; float:left; background:#fff; width:153px; border:1px solid #ccc; padding:0 5px;}
+.search form .keywords { width:149px; line-height:14px; height:14px; float:left; background:none; border:0; padding:6px 2px; margin:0; font:normal 11px Arial, Helvetica, sans-serif; color:#acacac;}
+/*menu*/
+.menu { padding:0; margin:0 auto ; width:930px; border-bottom:1px solid #a5a5a5; border-top:1px solid #a5a5a5; }
+.menu ul {  padding:0; margin:0; list-style:none; border:0; float:left;}
+.menu ul li { float:left; margin:0; padding:15px 5px; }
+.menu ul li a { float:left; margin:0; padding:0 10px 0 15px; color:#59554a; font:normal 14px Arial, Helvetica, sans-serif; text-decoration:none; text-transform:uppercase; background:url(images/menu_bg.gif) left no-repeat;}
+.menu ul li a:hover { color:#1d9ad6; }
+.menu ul li a.active {  color:#1d9ad6; }
+/* headert_text_resize */
+.headert_text_resize { width:930px; padding:5px 0 0 0; margin:0 auto;}
+.headert_text_resize img { float:left; margin:0; padding:30px 0 0 20px;}
+.headert_text_resize .textarea {  width:720px; margin:0; padding:20px 0 0 5px; float:right; background:url(images/header_block_bg.gif) top no-repeat;}
+.headert_text_resize .textarea h2 { border-bottom:1px dashed #ccc; font: normal 26px Arial, Helvetica, sans-serif; color:#626262; padding:10px 0; margin:0; }
+.headert_text_resize .textarea h2 span { color:#1d9ad6;}
+.headert_text_resize .textarea a { font: bold 16px Arial, Helvetica, sans-serif; color:#1d9ad6; text-decoration:none;}
+/*body*/
+.body_resize { margin:0 auto; padding:20px 0 0 0; width:930px;}
+.body { margin:0; padding:10px 25px 40px 25px;}
+.body h3 {  font: bold 24px Arial, Helvetica, sans-serif; color:#585858; padding:10px 0; margin:5px 0 10px 0; border-bottom:1px solid #999999; border-top:1px solid #999999; }
+.body h3 span { color:#1d9ad6;}
+.body h2 {  font: normal 30px Arial, Helvetica, sans-serif; color:#585858; padding:3px 0 3px 5px; margin:5px 0 10px 0; }
+.body h2 span { color:#1d9ad6;}
+.body p { font: normal 14px Arial, Helvetica, sans-serif; color:#585858; padding:5px; margin:0; line-height:1.8em;}
+.body img { float:left; margin:5px; padding:0;}
+.body img.floated { float:right; margin:10px; padding:0;}
+.body a { color:#1d9ad6; text-decoration:none; font-weight:bold;}
+.left { float:left; width:640px; margin:0; padding:0;}
+.right { float:right; width:265px; margin:0; padding:0;}
+.right .blog { border:1px solid #dedede; margin:10px 0; padding:10px;  border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius:7px; background:#fff;}
+.right ul { list-style:none; margin:5px 10px; padding:0;}
+.right li { font: normal 14px Arial, Helvetica, sans-serif; color:#464646;  padding:5px 0;}
+.right li a {  background: url(images/ul_li.gif) left no-repeat; padding:0 0 0 20px; margin:0; font: normal 14px Arial, Helvetica, sans-serif; color:#626262; text-decoration:none;}
+.right li a:hover { color:#1d9ad6; text-decoration:none; }
+.right ul.sponsors { list-style:none; margin:5px 10px; padding:0;}
+.right li.sponsors { border-bottom:1px dashed #ccc; font: normal 12px Arial, Helvetica, sans-serif; color:#585858;  padding:5px 0;}
+.right li.sponsors span { padding:0 0 0 20px; color:#999999; font: 11px Arial, Helvetica, sans-serif;}
+.border_blog { border:1px solid #ccc; margin:0 auto 15px auto; padding:10px 5px;}
+/* FBG */
+.FBG_resize { margin:0 auto; padding:0; width:930px; background:#fff;}
+.FBG { margin:0; padding:0; }
+.FBG img { float:left; margin:5px 10px 5px 0; padding:0;}
+.FBG h2 { color:#585858;  font: normal 30px Arial, Helvetica, sans-serif;  padding:3px 0; margin:5px 0 15px 0;}
+.FBG p { color:#464646; font: normal 12px Arial, Helvetica, sans-serif;  padding:5px 0; margin:0; line-height:1.8em;}
+.FBG a  { color:#1d9ad6; text-decoration:none; font: bold 12px Arial, Helvetica, sans-serif;}
+.FBG ul { list-style:none; float:left; padding:0; margin:10px 0;}
+.FBG li { padding:2px 1px; margin:0;}
+.FBG li a { color:#1d9ad6; font: normal 12px Arial, Helvetica, sans-serif;  text-decoration: none; text-transform:uppercase;}
+.FBG li a:hover { color:#464646; text-decoration:none;}
+.FBG .blok { width:270px; float:left; padding:5px 20px; margin:0;}
+/* footer */
+.footer_resize { margin:0 auto; padding:25px 0; width:930px;}
+.footer h3 {  font: bold 24px Arial, Helvetica, sans-serif; color:#585858; padding:10px 0; margin:5px 0 10px 0; border-bottom:1px solid #999999; border-top:1px solid #999999; }
+.footer { padding:0; margin:0 auto; background:url(images/footer_bg.gif) top repeat-x;}
+.footer img { float:left; margin:10px; padding:0;}
+.footer p { color:#585858; font: normal 12px Arial, Helvetica, sans-serif; padding:0 0 0 5px; margin:0; line-height:1.8em;}
+.footer a { color:#1d9ad6; text-decoration:none;}
+/********** contact form **********/
+#contactform { margin:0; padding:5px 10px; }
+#contactform * { color:#F00; }
+#contactform ol { margin:0; padding:0; list-style:none; }
+#contactform li { margin:0; padding:0; background:none; border:none; display:block; clear:both; }
+#contactform li.buttons { margin:5px 0 5px 0; }
+#contactform label { margin:0; width:110px; display:block; padding:10px 0; color:#666; font: normal 12px Arial, Helvetica, sans-serif; text-transform:capitalize; float:left; }
+#contactform label span { color:#F00; }
+#contactform input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff; float:left; }
+#contactform textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff; float:left; }
+#contactform li.buttons input { border:1px solid #000; background:#1d9ad6; padding:10px; margin:10px 0 0 110px;  color:#fff; float:left; font: normal 12px Arial, Helvetica, sans-serif;}
+p.response { text-align:center; color:#F00; font: normal 11px Georgia, "Times New Roman", Times, serif; line-height:1.8em; width:auto; }

@@ -1,0 +1,198 @@
+/*buttons #1*/
+.buttons {
+    overflow:hidden;
+}
+.but1{
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+    box-shadow:0px 0px 7px rgba(0,0,0,0.4) inset, 0px 0px 0px 4px rgba(255,255,255,0.1);
+    -moz-box-shadow:0px 0px 7px rgba(0,0,0,0.4) inset, 0px 0px 0px 4px rgba(255,255,255,0.1);
+    -webkit-box-shadow:0px 0px 7px rgba(0,0,0,0.4) inset, 0px 0px 0px 4px rgba(255,255,255,0.1);
+
+    background-color:#f4f5fe;
+    display:block;
+    float:left;
+    margin:10px;
+    overflow:hidden;
+    padding:10px 15px;
+    position:relative;
+    text-decoration:none;
+
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+}
+.but1 .icon{
+    background:transparent url(../images/download.png) no-repeat top left;
+    float:left;
+    height:32px;
+    width:45px;
+
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+}
+.but1 .title{
+    font-size:18px;
+    color:#000;
+    display:block;
+    float:left;
+    font-weight:bold;
+    line-height:32px;
+}
+.but1 .icon2{
+    background:transparent url(../images/download2.png) no-repeat top left;
+    height:32px;
+    left:20px;
+    opacity:0;
+    position:absolute;
+    top:-15px;
+    width:32px;
+}
+.but1:hover{
+    background-color:#e3e3ff;
+
+    box-shadow:0px 0px 4px rgba(0,0,0,0.5) inset, 0px 0px 0px 4px rgba(51,51,204,0.5);
+    -moz-box-shadow:0px 0px 4px rgba(0,0,0,0.5) inset, 0px 0px 0px 4px rgba(51,51,204,0.5);
+    -webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.5) inset, 0px 0px 0px 4px rgba(51,51,204,0.5);
+
+   -webkit-transition-delay: 0.5s;
+   -moz-transition-delay: 0.5s;
+   -o-transition-delay: 0.5s;
+   -ms-transition-delay: 0.5s;
+   transition-delay: 0.5s;
+}
+.but1:hover .icon{
+    transform:rotate(-90deg) scale(0.8);
+    -ms-transform:rotate(-90deg) scale(0.8);
+    -moz-transform:rotate(-90deg) scale(0.8);
+    -o-transform:rotate(-90deg) scale(0.8);
+    -webkit-transform:rotate(-90deg) scale(0.8);
+}
+.but1:active .icon{
+    opacity:0;
+}
+.but1:active .icon2{
+    opacity:1;
+    -webkit-animation:slideDown1 1.0s linear infinite;
+    -moz-animation:slideDown1 1.0s linear infinite;
+    animation:slideDown1 1.0s linear infinite;
+}
+.but1:active{
+    background-color:#c1c1ff;
+
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 4px rgba(51,51,204,0.8);
+    -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 4px rgba(51,51,204,0.8);
+    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 4px rgba(51,51,204,0.8);
+}
+
+@keyframes slideDown1{
+    0% {
+        top: -30px;
+    }
+    100% {
+        top: 55px;
+    }
+}
+@-webkit-keyframes slideDown1{
+    0% {
+        top: -30px;
+    }
+    100% {
+        top: 55px;
+    }
+}
+@-moz-keyframes slideDown1{
+    0% {
+        top: -30px;
+    }
+    100% {
+        top: 55px;
+    }
+}
+
+/*buttons #2*/
+.but2{
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+
+    background-color:#99cc99;
+    float:left;
+    height:40px;
+    margin:10px;
+    overflow:hidden;
+    padding-left:20px;
+    position:relative;
+    text-decoration:none;
+
+    transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+}
+.but2 .title{
+    color:#000000;
+    display:block;
+    float:left;
+    font-size:18px;
+    font-weight:bold;
+    line-height:40px;
+
+    transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    -webkit-transition:all 0.2s linear;
+}
+.but2 .extra{
+    background-color:#63707e;
+    color:#fff;
+    float:left;
+    font-size:18px;
+    line-height:40px;
+    opacity:0;
+    position:relative;
+    text-transform:uppercase;
+    width:0px;
+
+    transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+}
+.but2 .extra span, .but2 .extra input {
+    display:none;
+}
+.but2 .icon{
+    background:transparent url(../images/right.png) no-repeat center center;
+    float:left;
+    height:40px;
+    width:40px;
+
+    transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+}
+.but2:hover .extra span, .but2:hover .extra input{
+    display:inline-block;
+}
+.but2:hover .extra{
+    margin-left:10px;
+    opacity: 1;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+    width:150px;
+}
+.but2:hover .icon{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+}

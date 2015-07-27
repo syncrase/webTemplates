@@ -1,0 +1,67 @@
+body
+{font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+background-image:url(images/bg.jpg); background-repeat:repeat-x;
+background-color:#213C4D;
+color:#608595;
+}
+#outer
+{width:779px;}
+#left
+{width:160px;
+background-color:#3E6B80;}
+#center
+{width:509px;
+background-color:#ffffff;}
+#right
+{width:110px;
+background-color:#6FA1BA;}
+.name
+{color:#ffffff;
+font-size:30px;}
+.tag
+{color:#ffffff;}
+.toplinks
+{color:#ffffff;
+font-size:12px;
+height:35px;
+line-height:35px;
+font-weight:bold;}
+.toplinks a
+{color:#ffffff;
+padding-left:15px;
+text-decoration:none;}
+.toplinks a:hover
+{color:#ffffff;
+text-decoration:none;
+background-color:#6FA1BA;
+display:block;}
+.content
+{font-family:tahoma;
+font-size:11px;
+font-weight:bold;
+padding-left:5px;}
+.content2
+{font-family:tahoma;
+font-size:11px;
+color:#5A5A5A;
+padding-left:5px;}
+a{color:#608595;
+text-decoration:underline;}
+a:hover{color:#608595;
+text-decoration:none;}
+.thumb
+{border:3px solid #3E6B80;
+height:78px;
+width:90px;}
+.page-links{color:#608595;
+font-family:tahoma;
+font-size:11px;
+padding-right:5px;
+text-decoration:none;}
+.page-links:hover{color:#000000;
+text-decoration:none;}

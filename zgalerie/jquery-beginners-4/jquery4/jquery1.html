@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>jquery1</title>
+	<style type="text/css" media="screen">
+		#gallery {width: 960px; margin: 0 auto;}
+		.galleryitem {width: 300px; height: 300px;float: left; font-family: Lucida Sans Unicode, Arial; font-style: italic; font-size: 13px; border: 5px solid black; margin: 3px;}
+		.galleryitem img {width: 300px;}
+		.galleryitem p {text-indent: 15px;}
+		
+		#galleryhoverp { margin-top: -55px; background-color: black; opacity: 0.5;
+		-moz-opacity: 0.5;
+		filter:alpha(opacity=50); height: 40px; color: white; padding-top: 10px;}
+		
+		#singleimagedisplay {width: 800px;}
+		#singleimagedisplay img {width: 800px;}
+		
+		#singleimagedisplay a {float: right; color: white;}
+
+	</style>
+</head>
+<body>
+	<div id="gallery">
+		<div class="galleryitem"><img src="image1.jpg" alt="A beautiful Sunset over a field" /><p>A beautiful Sunset over a field</p></div>
+		<div class="galleryitem"><img src="image2.jpg" alt="Some penguins on the beach" /><p>Some penguins on the beach</p></div>
+		<div class="galleryitem"><img src="image3.jpg" alt="The sun trying to break through the clouds" /><p>The sun trying to break through the clouds</p></div>
+		<div class="galleryitem"><img src="image4.jpg" alt="Palm tress on a sunny day" /><p>Palm tress on a sunny day</p></div>
+		<div class="galleryitem"><img src="image5.jpg" alt="The sun bursting through the tall grass" /><p>The sun bursting through the tall grass</p></div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$('p').hide();
+		var galleryItems = $('.galleryitem');
+		galleryItems.css('height', '200px');
+		var images = galleryItems.find('img');
+		galleryItems.hover(
+			function() {
+				if($(this).attr('id')!='singleimagedisplay')
+				{
+					
+					$(this).children("img").next('p').show().attr('id', 'galleryhoverp');
+				}
+			
+			},
+			function() {
+				if($(this).attr('id')!='singleimagedisplay')
+				{
+					$(this).children("img").next('p').hide().attr('id', '');
+				}
+			}
+		);
+		
+		images.click(function() {
+			$(this).parent().attr('id', 'singleimagedisplay').css('height', $(this).height()).siblings().hide();
+			$(this).next('p').show().html($(this).next('p').html() + '<a href="jquery1.html">Back</a>');
+	
+		})
+	</script>
+</body>
+</html>

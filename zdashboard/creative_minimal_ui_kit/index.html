@@ -1,0 +1,293 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creative Minimal UI Kit a Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,900italic,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Creative Minimal UI Kit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!----Calender -------->
+	  <link rel="stylesheet" href="css/clndr.css" type="text/css" />
+	  <script src="js/underscore-min.js"></script>
+	  <script src= "js/moment-2.2.1.js"></script>
+	  <script src="js/clndr.js"></script>
+	  <script src="js/site.js"></script>
+	<!----End Calender -------->
+	<!----chart -------->
+	<script src="js/Chart.js"></script>
+	<!----chart -------->
+</head>
+<body>
+<!-- banner -->
+<div class="content">
+	<div class="container">
+		<!-- banner-left -->
+		<div class="content-header">
+			<h2>CREATIVE MINIMAL UI KIT</h2>
+			<div class="strip-border"></div>
+		</div>
+		<div class="col-md-4 banner-left">
+			<div class="banner-top">
+				<h1>1:33</h1>
+				<ul>
+					<li>PM</li>
+					<li>AM</li>
+				</ul>
+			</div>
+			<div class="ban-left-grids">
+				<div class="ban-left-grid">
+					<h3>TODAY</h3>
+					<img src="images/sun.png" alt=""/>
+					<p>26°/34°</p>
+				</div>
+				<div class="ban-left-grid">
+					<h3>TUE</h3>
+					<img src="images/sun.png" alt=""/>
+					<p>29°/21°</p>
+				</div>
+				<div class="ban-left-grid">
+					<h3>WED</h3>
+					<img src="images/sun.png" alt=""/>
+					<p>30°/24°</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="search">
+				<form>
+					<input type="search" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+					<input type="submit" value="SEARCH">
+				</form>			
+			</div>
+			<div class="down-state">
+				<a href="#" class="hvr-rectangle-out button">DOWNSTATE</a>
+				<a href="#" class="hvr-rectangle-in button red">UPSTATE</a>
+			</div>
+			<div class="favourites">
+				<ul>
+					<li><a class="eye" href="#">22312</a></li>
+					<li><a class="video" href="#">331</a></li>
+					<li><a  class="favou"href="#">1352</a></li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<div class="skill-grids">
+					<div class="skills-grid">
+						<div class="circle" id="circles-1"></div>
+							<script type="text/javascript" src="js/circles.js"></script>
+							<script>
+										var colors = [
+												['#fc9d9d', '#fe7a7a']
+											];
+										for (var i = 1; i <= 2; i++) {
+											var child = document.getElementById('circles-' + i),
+												percentage = 60 + (i * 10);
+												
+											Circles.create({
+												id:         child.id,
+												percentage: percentage,
+												radius:     80,
+												width:      10,
+												number:   	percentage / 1,
+												text:       '%',
+												colors:     colors[i - 1]
+											});
+										}
+								
+							</script>
+					</div>
+					<div class="skills-gridb">
+						<canvas id="canvas" height="450" width="450"></canvas>
+							<script>
+
+								var pieData = [
+										{
+											value: 215,
+											color:"#fe7a7a"
+										},
+										
+										{
+											value : 145,
+											color : "#fc9d9d"
+										}
+									
+									];
+
+							var myPie = new Chart(document.getElementById("canvas").getContext("2d")).Pie(pieData);
+							</script>
+					</div>
+					<div class="clearfix"></div>
+			</div>
+		</div>
+		<!-- //banner-left -->
+		<!-- banner-middle -->
+		<div class="col-md-4 banner-middle">
+			<div class="user-form">
+				<form>
+						<input type="text" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" required="">
+						<input type="password" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}" required="">
+						<input type="submit" value="LOG IN">
+				</form>
+			</div>
+			<div class="calender">
+					<div class="column_right_grid calender">
+                      <div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div>
+                      <div class="month">March 2014</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div>
+                      <table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days">
+                      	<td class="header-day">Sun</td><td class="header-day">Mon</td><td class="header-day">Tu</td><td class="header-day">We</td><td class="header-day">T</td>
+                      	<td class="header-day">Fr</td><td class="header-day">Su</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2014-02-23">
+                      	<div class="day-contents">23</div></td><td class="day past adjacent-month last-month calendar-day-2014-02-24"><div class="day-contents">24</div></td>
+                      	<td class="day past adjacent-month last-month calendar-day-2014-02-25"><div class="day-contents">25</div></td>
+                      	<td class="day past adjacent-month last-month calendar-day-2014-02-26"><div class="day-contents">26</div></td>
+                      	<td class="day past adjacent-month last-month calendar-day-2014-02-27"><div class="day-contents">27</div></td><td class="day past adjacent-month last-month calendar-day-2014-02-28"><div class="day-contents">28</div></td><td class="day past calendar-day-2014-03-01"><div class="day-contents">1</div></td></tr><tr><td class="day past calendar-day-2014-03-02"><div class="day-contents">2</div></td><td class="day past calendar-day-2014-03-03"><div class="day-contents">3</div></td><td class="day past calendar-day-2014-03-04"><div class="day-contents">4</div></td><td class="day past calendar-day-2014-03-05"><div class="day-contents">5</div></td><td class="day past calendar-day-2014-03-06"><div class="day-contents">6</div></td><td class="day past calendar-day-2014-03-07"><div class="day-contents">7</div></td><td class="day past calendar-day-2014-03-08"><div class="day-contents">8</div></td></tr><tr><td class="day past calendar-day-2014-03-09"><div class="day-contents">9</div></td><td class="day past event calendar-day-2014-03-10"><div class="day-contents">10</div></td><td class="day past event calendar-day-2014-03-11"><div class="day-contents">11</div></td><td class="day past event calendar-day-2014-03-12"><div class="day-contents">12</div></td><td class="day past event calendar-day-2014-03-13"><div class="day-contents">13</div></td><td class="day past event calendar-day-2014-03-14"><div class="day-contents">14</div></td><td class="day past calendar-day-2014-03-15"><div class="day-contents">15</div></td></tr><tr><td class="day past calendar-day-2014-03-16"><div class="day-contents">16</div></td><td class="day past calendar-day-2014-03-17"><div class="day-contents">17</div></td><td class="day past calendar-day-2014-03-18"><div class="day-contents">18</div></td><td class="day past calendar-day-2014-03-19"><div class="day-contents">19</div></td><td class="day past calendar-day-2014-03-20"><div class="day-contents">20</div></td><td class="day past event calendar-day-2014-03-21"><div class="day-contents">21</div></td><td class="day past event calendar-day-2014-03-22"><div class="day-contents">22</div></td></tr><tr><td class="day past event calendar-day-2014-03-23"><div class="day-contents">23</div></td><td class="day past calendar-day-2014-03-24"><div class="day-contents">24</div></td><td class="day today calendar-day-2014-03-25"><div class="day-contents">25</div></td><td class="day calendar-day-2014-03-26"><div class="day-contents">26</div></td><td class="day calendar-day-2014-03-27"><div class="day-contents">27</div></td><td class="day calendar-day-2014-03-28"><div class="day-contents">28</div></td><td class="day calendar-day-2014-03-29"><div class="day-contents">29</div></td></tr><tr><td class="day calendar-day-2014-03-30"><div class="day-contents">30</div></td><td class="day calendar-day-2014-03-31"><div class="day-contents">31</div></td><td class="day adjacent-month next-month calendar-day-2014-04-01"><div class="day-contents">1</div></td><td class="day adjacent-month next-month calendar-day-2014-04-02"><div class="day-contents">2</div></td><td class="day adjacent-month next-month calendar-day-2014-04-03"><div class="day-contents">3</div></td><td class="day adjacent-month next-month calendar-day-2014-04-04"><div class="day-contents">4</div></td><td class="day adjacent-month next-month calendar-day-2014-04-05"><div class="day-contents">5</div></td></tr></tbody></table></div></div>
+				    </div>
+					<div class="cal-pos a">
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="cal-pos">
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+			</div>
+			<div class="video-grid">
+					<iframe src="https://www.youtube.com/embed/ql_WzVWKZzg" frameborder="0" allowfullscreen></iframe>			
+			</div>	
+		</div>
+		<!-- //banner-middle -->
+		<!-- banner-right -->
+		<div class="col-md-4 banner-right">
+			<div class="sunny">
+				<img src="images/bigsun.png" alt=""/>
+				<h3>SUNNY AMSTERDAM</h3>
+				<h2>32°</h2>
+			</div>
+			<div class="west-chance">
+						<div class="west-grids">
+							<div class="west-left">
+								<img src="images/pic2.png" alt=""/>
+							</div>
+							<div class="west-right">
+								<h3>14</h3>
+								<ul>
+									<li>KM/H</li>
+									<li>West</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="west-grids">
+							<div class="west-left">
+								<img src="images/umbre.png" alt=""/>
+							</div>
+							<div class="west-right">
+								<h4>12%<span>CHANCE</span></h4>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					<div class="clearfix"></div>
+			</div>
+			<div class="shades">
+				<h3>26° <span>MIN</span></h3>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<div class="clearfix"></div>
+				</ul>
+				<h3>34°<span>MAX</span></h3>
+				<div class="clearfix"></div>
+			</div>
+			<div class="about-right-list">
+					<ul class="menu">
+						<li class="item1"><a href="#">ITEM 1</a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</a></li>
+							</ul>
+						</li>
+						<li class="item2"><a href="#">ITEM 2</a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</a></li>
+							</ul>
+						</li>
+						<li class="item3"><a href="#">ITEM 3</a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</a></li>
+							</ul>
+						</li>
+						<li class="item4"><a href="#">ITEM 4</a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</a></li>
+							</ul>
+						</li>
+						<li class="item5"><a href="#">ITEM 5</a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</a></li>
+							</ul>
+						</li>
+						<li class="item6"><a href="#">ITEM 6</a>
+							<ul>
+								<li class="subitem1"><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</a></li>
+							</ul>
+						</li>
+					</ul>
+			</div>
+					<!-- script for tabs -->
+						<script type="text/javascript">
+							$(function() {
+							
+								var menu_ul = $('.menu > li > ul'),
+									   menu_a  = $('.menu > li > a');
+								
+								menu_ul.hide();
+							
+								menu_a.click(function(e) {
+									e.preventDefault();
+									if(!$(this).hasClass('active')) {
+										menu_a.removeClass('active');
+										menu_ul.filter(':visible').slideUp('normal');
+										$(this).addClass('active').next().stop(true,true).slideDown('normal');
+									} else {
+										$(this).removeClass('active');
+										$(this).next().stop(true,true).slideUp('normal');
+									}
+								});
+							
+							});
+						</script>
+
+					<!-- script for tabs -->
+		</div>
+		<!-- //banner-right -->
+		<div class="clearfix"></div>
+		<div class="footer">
+			<p>Copyright &copy; 2015 Creative Minimal UI Kit. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+</body>
+</html>
